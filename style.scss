@@ -1,0 +1,115 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    background-color:whitesmoke;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+  position: relative;
+  min-height: 100vh;
+}
+
+.home img{
+  height: 300px;
+  width: 300px;
+  margin-top: 5%;
+  border-radius: 50%;
+}
+  #name {
+    font: 1em sans-serif;
+    font-size: 30px;
+    color: seashell;
+    top:0;
+    left:0;
+  }
+  .navbar{
+    background-color:black;
+  }
+  #about p{
+    text-align: justify;
+
+  }
+  footer {
+    width: 100%;
+    background-color: #000000;
+    padding: 1% 5% 0% 5%;
+    color: #ffffff;
+    bottom: 0;
+    margin: 0;
+    position: relative;
+  }
+  .abouth {
+    text-align: center;
+    font-size: 500%;
+    font-weight: 500;
+    margin-top: 5%;
+    padding-bottom: 5%;
+    color: #000000;
+    padding: 20px;
+    margin-bottom: 5%;
+  }
+  .h2 {
+    text-align: center;
+  }
+  
+  .fab {
+    padding: 10px;
+    font-size: 20px;
+    color: #ffffff;
+  }
+  
+  .fab:hover {
+    color: #3d8ab6;
+    text-decoration: none;
+  }
+  .landing-text {
+    text-align: center;
+    vertical-align: middle;
+  }
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+}    
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    width: 80%;
+    height: 5%;
+    text-align: center;
+}
+
+th {
+    background-color: lightgray;
+}
+
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+ 
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+ 
+  
